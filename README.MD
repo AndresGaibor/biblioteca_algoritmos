@@ -38,3 +38,13 @@ node server.js
 
 - En VSC abrir el archivo "index.html"
 - Click derecho en el archivo "index.html" y seleccionar "Open with Live Server"
+
+## Resultado
+
+#### Listado de libros
+
+![Listado de libros](./listadolibro.png)
+
+#### Libros filtrados por categoria
+
+![Libros por categoria](./librosfiltrados.png)
