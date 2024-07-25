@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Listado de Libros</title>
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    />
+  </head>
+  <body>
+    <div class="container mt-5">
+      <h1 class="mb-4">Listado de Libros</h1>
+      <div class="form-group">
+        <label for="genreFilter">Filtrar por Género:</label>
+        <select class="form-control" id="genreFilter">
+          <option value="">Todos los Géneros</option>
+          <option value="Historia">Historia</option>
+          <option value="Terror">Terror</option>
+          <option value="Infantil">Infantil</option>
+          <option value="Fantasia">Fantasia</option>
+          <option value="Misterio">Misterio</option>
+          <option value="Aventura">Aventura</option>
+          <option value="Filosofia">Filosofia</option>
+          <option value="Drama">Drama</option>
+          <option value="Ficcion">Ficción</option>
+          <option value="Clásico">Clásico</option>
+          <option value="Ciencia Ficcion">Ciencia Ficción</option>
+          <option value="Epico">Épico</option>
+          <option value="Poesia">Poesía</option>
+          <option value="Romance">Romance</option>
+        </select>
+      </div>
+      <ul class="list-group" id="bookList">
+        <!-- Los libros se cargarán aquí -->
+      </ul>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
